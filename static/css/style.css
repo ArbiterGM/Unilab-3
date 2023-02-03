@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* text */
+.nav-text {
+  color: black;
+}
+.nav-text:link {
+  text-decoration: none;
+}
+.nav-text:visited {
+  text-decoration: none;
+}
+
+p {
+  font-family: Poppins;
+}
+
+.desc-title {
+  text-align: left;
+  margin: 15px 10px 5px 10px;
+}
+
+.geo-text {
+  font-weight: 500;
+  font-family: FiraGO;
+}
+
+.main-text {
+  color: #7d0000;
+  font-family: "Open Sans";
+  letter-spacing: 0.03rem;
+  font-weight: 600;
+}
+
+.mail-text {
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-text {
+  font-weight: 600;
+  font-family: "Open Sans";
+  margin-top: 15px;
+}
+
+/* navigation */
+header {
+  text-align: center;
+}
+
+nav {
+  border-bottom: 1px solid;
+}
+
+ul {
+  margin: 20px 0;
+}
+
+li {
+  display: inline;
+  margin: 0 35px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+/* products-section */
+.h1-section {
+  margin-bottom: 65px;
+}
+
+.products {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.wrap {
+  width: 33%;
+  display: inline-block;
+}
+
+.container {
+  margin: 35px;
+  display: inline-block;
+}
+
+.product-item {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.desc-main {
+  font-weight: 700;
+}
+
+.img-desc {
+  padding: 10px;
+}
+
+.button {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.btn {
+  font-family: Poppins;
+  text-align: right;
+  font-size: 15px;
+  padding: 0 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 25px;
+}
+/* product description */
+.full-description {
+  margin: 80px 0 0 50px;
+}
+
+.desc-li {
+  display: list-item;
+  margin: 0;
+  text-align: left;
+  font-size: 13px;
+}
+/* about us page */
+.about-company {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.company-info {
+  font-family: "Open Sans";
+  font-weight: 600;
+  width: 40%;
+  margin: 5% 0 0 20%;
+}
+
+.company-lorem-text {
+  margin-bottom: 35px;
+  line-height: 165%;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  font-weight: 400;
+}
+
+/* contact us page */
+.contact-us {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.contact-info {
+  text-align: left;
+  margin: 5% 0 0 25%;
+}
